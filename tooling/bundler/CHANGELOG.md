@@ -1,5 +1,15 @@
 # Changelog
 
+## \[3.0.0-beta.0]
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.0.0-beta.17`
+
+### Breaking Changes
+
+- [`fc1543c65`](https://www.github.com/tauri-apps/tauri/commit/fc1543c65e736622bed93543dcc6504c43e200bb)([#9864](https://www.github.com/tauri-apps/tauri/pull/9864)) Removed `skip_webview_install` (`skipWebviewInstall`) option from config, which has been deprecated for a while now and planned to be removed in v2. Use `webview_install_mode` (`webviewInstallMode`) instead.
+
 ## \[2.0.1-beta.14]
 
 ### Enhancements

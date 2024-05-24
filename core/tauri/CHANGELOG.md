@@ -1,5 +1,23 @@
 # Changelog
 
+## \[2.0.0-beta.21]
+
+### New Features
+
+- [`8a1ae2dea`](https://www.github.com/tauri-apps/tauri/commit/8a1ae2deaf3086e531ada25b1627f900e2e421fb)([#9843](https://www.github.com/tauri-apps/tauri/pull/9843)) Added an option to use a Xcode project for the iOS plugin instead of a plain SwiftPM project.
+
+### Dependencies
+
+- Upgraded to `tauri-build@2.0.0-beta.17`
+- Upgraded to `tauri-macros@2.0.0-beta.17`
+- Upgraded to `tauri-utils@2.0.0-beta.17`
+- Upgraded to `tauri-runtime@2.0.0-beta.18`
+- Upgraded to `tauri-runtime-wry@2.0.0-beta.18`
+
+### Breaking Changes
+
+- [`1df5cdeb0`](https://www.github.com/tauri-apps/tauri/commit/1df5cdeb06f5464e0eec4055e21b7b7bc8739eed)([#9858](https://www.github.com/tauri-apps/tauri/pull/9858)) Use `tauri.conf.json > identifier` to set the `PackageName` in Android and `BundleId` in iOS.
+
 ## \[2.0.0-beta.20]
 
 ### New Features
